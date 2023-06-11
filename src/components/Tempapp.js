@@ -66,10 +66,6 @@ const Tempapp = () => {
           <div className="info">
             <h1 className="location">{search}</h1>
 
-            <div>
-              <img className="icon" id="icon" />
-            </div>
-
             <h1 className="temp">{city.temp}°C</h1>
 
             <h3 className="tempmin_max">
